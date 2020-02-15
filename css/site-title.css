@@ -1,0 +1,40 @@
+.site-title {
+  background: url("../assets/Background-image.png");
+  background-size: cover;
+  height: 110vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* align-items: center; */
+}
+
+.site-title h1,
+h3 {
+  margin: 0.1rem;
+}
+
+.site-background {
+  padding-top: 10rem;
+  color: white;
+  text-align: center;
+}
+
+.site-title .btn {
+  margin: 1.3rem;
+  background: var(--sky);
+  border: 1px solid transparent;
+}
+
+.site-title .btn:hover {
+  background: transparent;
+  border: 1px solid var(--sky);
+  color: white;
+}
+
+.site-title .btn:focus {
+  outline: none;
+}
+/*# sourceMappingURL=site-title.css.map */

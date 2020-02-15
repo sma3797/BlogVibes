@@ -5,6 +5,20 @@ window.addEventListener("resize", () => {
   document.documentElement.style.setProperty("--vh", `${vh}px`);
 });
 
+$(document).ready(function() {
+  $(".owl-carousel").owlCarousel({
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    dots:false,
+    nav: true,
+    navText: [
+      $(".owl-navigation .owl-nav-prev"),
+      $(".owl-navigation .owl-nav-next")
+    ]
+  });
+});
+
 const navSlide = () => {
   const burger = document.querySelector(".burger");
   const nav = document.querySelector(".nav-items");
