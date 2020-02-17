@@ -33,6 +33,7 @@ nav {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   /* width: 30%; */
+  z-index: 1;
 }
 
 .nav-items a {
@@ -57,6 +58,7 @@ nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  z-index: 1;
 }
 
 .nav-social-icons a i {
