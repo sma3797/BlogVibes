@@ -65,4 +65,10 @@ main .blog .blog-post .blog-content span {
   background: transparent;
   color: var(--text-blue);
 }
+
+@media only screen and (max-width: 768px) {
+  main .blog {
+    background-size: 90%;
+  }
+}
 /*# sourceMappingURL=blog-carousel.css.map */

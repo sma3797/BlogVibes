@@ -3,7 +3,8 @@
     grid-template-columns: 70% 30%;
 }
 
-.sidebar, .posts {
+.sidebar,
+.posts {
     padding: 0 .5rem;
 }
 
@@ -147,7 +148,7 @@
     }
 }
 
-.newsletter {
+main .newsletter {
     padding-top: 2rem;
 
     .form-element {
@@ -190,5 +191,45 @@
             border-radius: 3rem;
             margin: .4rem .6rem;
         }
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    .container {
+        margin: 0 1vw;
+    }
+
+    .category ul li {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+
+    .post-content .post-image,
+    .post-content .post-title {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .site-content {
+        grid-template-columns: 1fr;
+    }
+
+    .category ul li {
+        display: block;
+        // width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .post-content .post-image .post-info {
+        // width: 50%;
+        // height: 50%;
+        padding: .2rem .5rem;
+        display: block;
+        // background: red;
+        // color: red;
     }
 }
