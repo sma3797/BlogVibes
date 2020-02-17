@@ -45,14 +45,12 @@ main .blog {
         color: var(--text-blue);
         background: transparent;
         font-size: 1.3rem;
-        // :hover {}
-    }
-}
 
-.container .owl-nav .owl-prev .owl-nav-prev:hover,
-.container .owl-nav .owl-next .owl-nav-next:hover {
-    background: transparent;
-    color: var(--text-blue);
+        &:hover {
+            background: transparent;
+            color: var(--text-blue);
+        }
+    }
 }
 
 .owl-carousel .owl-nav button.owl-next:hover,
